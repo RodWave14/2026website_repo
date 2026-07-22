@@ -27,6 +27,6 @@ header {
     background-color: var(--primary);
 }
 
-.navbar .nav-menu .navbar-link {
+.nav .nav-menu .navbar-link {
     color: var(--white-colour);
 }
