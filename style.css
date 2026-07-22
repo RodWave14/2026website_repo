@@ -16,7 +16,13 @@ header {
 
 :root{
     --primary: #170c74;
-    --secondary: #53
-
-
+    --secondary: #53359D;
+    --accent: #FFD94D;
+    --background: #100A6E;
+    --surface: #FFF9F8;
+    --text-dark: #2B1B4D;
+    --text-light: #FFFFFF;
+    --highlights: #E8538D;
+    --light-purp: #8B68B5;
+    --buttons: #4E6EF2;
 }
