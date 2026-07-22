@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: #fcedd2;
+    background-color: var(--primary);
 }
 
 :root{
