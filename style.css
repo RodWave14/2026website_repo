@@ -27,6 +27,10 @@ header {
     background-color: var(--primary);
 }
 
+.nav .nav-logo .logo-text {
+    color: var(--white-colour);
+}
+
 .nav .nav-menu .navbar-link {
     color: var(--white-colour);
 }
