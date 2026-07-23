@@ -27,8 +27,23 @@ header {
     background-color: var(--primary);
 }
 
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+
 .nav .nav-logo .logo-text {
-    color: var(--white-colour);
+    color: var(--white-colourt);
 }
 
 .nav .nav-menu .navbar-link {
