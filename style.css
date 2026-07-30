@@ -3,7 +3,7 @@
 
 
 *{
-    padding: 0;
+    padding: 0px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -33,7 +33,7 @@ body{
     align-items: center;
     gap: 15px;
     color: #FFFFFF;
-}
+    padding-left: 20px;}
 
 .logo i{
     font-size: 32px;
@@ -43,3 +43,10 @@ body{
 .logo h2{
     font-size: 32px;
 }
+
+.navbar{
+    display: flex;
+    gap:40px
+}
+
+
