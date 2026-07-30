@@ -30,3 +30,8 @@ body{
     gap: 15px;
     color: #FFFFFF;
 }
+
+.logo i{
+    font-size: 32px;
+    color: #FFD94D;
+}
