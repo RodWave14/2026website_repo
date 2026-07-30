@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -34,4 +38,8 @@ body{
 .logo i{
     font-size: 32px;
     color: #FFD94D;
+}
+
+.logo h2{
+    font-size: 32px;
 }
