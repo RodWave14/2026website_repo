@@ -49,4 +49,9 @@ body{
     gap:40px
 }
 
-
+.navbar a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    transition: 3s;
+}
