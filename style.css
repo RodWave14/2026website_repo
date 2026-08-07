@@ -87,3 +87,43 @@ body{
 .navbar a:hover::after {
     transform: scaleX(1);
 }
+
+.hero{
+
+    background:linear-gradient(#170C74,#2B1981);
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:170px 8% 80px;
+
+}
+
+.hero-text{
+
+    width:45%;
+}
+
+.hero h1{
+
+    font-size:75px;
+
+    line-height:80px;
+}
+
+.hero h1 span{
+
+    color:#FFD94D;
+}
+
+.hero p{
+
+    font-size:24px;
+
+    margin:30px 0;
+}
