@@ -26,5 +26,22 @@ translateButton.addEventListener("click", function () {
             isTongan = true;
     }
 
+    else {
+
+    title.innerHTML = `
+        Read
+        <br>
+        <span>From Tonga</span>
+    `;
+
+    description.textContent =
+        "Every Story is an adventure ready to begin";
+
+    translateButton.textContent =
+        "🇹🇴 Translate to Tongan";
+
+    isTongan = false;
+}
+
 });
 
