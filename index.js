@@ -8,4 +8,15 @@ let isTongan = false;
 
 translateButton.addEventListener("click", function () {
 
+
+    if (isTongan === false) {
+
+        title.innerHTML = `
+            Lau
+            <br>
+            <span>mei Tonga</span>
+        `;
+
+    }
+
 });
