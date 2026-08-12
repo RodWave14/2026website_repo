@@ -136,3 +136,35 @@ body{
     margin:30px 0;
 }
 
+
+
+.translate-btn {
+    background-color: #ff4d4d;
+    color: white;
+
+    border: none;
+
+    padding: 14px 25px;
+
+    border-radius: 30px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    transition: all 0.3s ease;
+}
+
+.translate-btn:hover {
+    background-color: #ff534d;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
