@@ -22,6 +22,8 @@ translateButton.addEventListener("click", function () {
 
          translateButton.textContent =
             "🇬🇧 Translate to English";
+
+            isTongan = true;
     }
 
 });
