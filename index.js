@@ -1,0 +1,1 @@
+const translateButton = document.getElementById("translateBtn");
