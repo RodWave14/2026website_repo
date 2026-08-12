@@ -13,10 +13,16 @@ translateButton.addEventListener("click", function () {
 
         title.innerHTML = `
             Lau
-            <br>
+            
             <span>mei Tonga</span>
         `;
 
+                description.textContent =
+            "Ko e talanoa kotoa pē ko ha fononga fakafiefia ia ʻoku tatali ke kamata.";
+
+         translateButton.textContent =
+            "🇬🇧 Translate to English";
     }
 
 });
+
