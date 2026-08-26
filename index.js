@@ -12,16 +12,16 @@ translateButton.addEventListener("click", function () {
     if (isTongan === false) {
 
         title.innerHTML = `
-            Lau
+            Ako Fekau'aki
             
-            <span>mei Tonga</span>
+            <span>mo Tonga</span>
         `;
 
                 description.textContent =
-            "Ko e talanoa kotoa pē ko ha fononga fakafiefia ia ʻoku tatali ke kamata.";
+            "Tonga: Ko Hotau Angafakatonga, Ko Hotau Talanoa";
 
          translateButton.textContent =
-            "🇬🇧 Translate to English";
+            "Translate to English";
 
             isTongan = true;
     }
@@ -29,16 +29,16 @@ translateButton.addEventListener("click", function () {
     else {
 
     title.innerHTML = `
-        Read
+        Learn About
         <br>
-        <span>From Tonga</span>
+        <span>Tonga</span>
     `;
 
     description.textContent =
-        "Every Story is an adventure ready to begin";
+        "Tonga: Our Culture, Our Story";
 
     translateButton.textContent =
-        "🇹🇴 Translate to Tongan";
+        "Translate to Tongan";
 
     isTongan = false;
 }
