@@ -15,7 +15,21 @@ const stories = {
         'O a'u ki he 'aho ni, 'oku manatu'i 'e he kakai Tonga 'a e fangota lahi 'a Maui 'i he taimi kotoa 'oku nau sio ai ki he fōtunga 'o honau ngaahi motu.`
     },
 
-
+      coconut: {
+        icon: "fa-solid fa-tree",
+        title_en: "The Origin of the Coconut Tree",
+        title_to: "Ko e Tupu'anga 'o e Fu'u Niu",
+        text_en: `In the old stories, an eel fell deeply in love with a beautiful young woman, but she could not love him back. Before he passed away, the eel asked her to bury his head near her home. Not long after, a strange sprout pushed up through the soil where his head was buried.
+        <br><br>
+        It grew into a tall, graceful tree unlike any other, crowned with fruit shaped like a head, with two "eyes" and a "mouth" where you could drink its sweet water. The people of Tonga believe every coconut carries a piece of that old story, which is why, when you look closely at a coconut shell, you can still see a face looking back at you.
+        <br><br>
+        Today the coconut tree provides food, drink, oil, and materials for weaving, a gift remembered in every part of Tongan daily life.`,
+        text_to: `'I he ngaahi talanoa motu'a, na'e 'ofa lahi 'a e tuna ki ha ta'ahine faka'ofo'ofa, ka na'e 'ikai lava ke ne 'ofa atu kiate ia. Ki mu'a pea ne pekia, na'e kole 'e he tuna ke tanu hono 'ulu 'o ofi ki hono fale.
+        <br><br>
+        Na'e tupu mei ai ha fu'u 'akau lōloa mo faka'ofo'ofa, kofu'aki 'a e fua 'oku hangē ko ha 'ulu, mo ha ongo "mata" mo ha "ngutu" 'e lava ke inu ai hono vai melie. 'Oku tui 'a e kakai Tonga 'oku 'i ai ha konga 'o e talanoa motu'a ko ia 'i he niu kotoa pē.
+        <br><br>
+        'I he 'aho ni, 'oku 'omai 'e he fu'u niu 'a e me'akai, inu, lolo, mo e ngaahi me'a ke lalanga 'aki, ko ha me'a'ofa 'oku manatu'i 'i he konga kotoa 'o e mo'ui faka-Tonga 'i he 'aho pē taha.`
+    },
 
 
 
