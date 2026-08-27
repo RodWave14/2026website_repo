@@ -39,7 +39,7 @@ body{
 
 .logo i{
     font-size: 32px;
-    color: #FFD94D;
+    color: #ffffff;
 }
 
 .logo h2{
@@ -86,3 +86,5 @@ body{
 .navbar a:hover::after {
     transform: scaleX(1);
 }
+
+
