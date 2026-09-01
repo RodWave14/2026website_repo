@@ -31,7 +31,19 @@ const stories = {
         'I he 'aho ni, 'oku 'omai 'e he fu'u niu 'a e me'akai, inu, lolo, mo e ngaahi me'a ke lalanga 'aki, ko ha me'a'ofa 'oku manatu'i 'i he konga kotoa 'o e mo'ui faka-Tonga 'i he 'aho pē taha.`
     },
 
-
-
-
-}
+        tangaloa: {
+        icon: "fa-solid fa-cloud-sun",
+        title_en: "Tangaloa and the Creation of Tonga",
+        title_to: "Ko Tangaloa mo e Fakatupu 'o Tonga",
+        text_en: `Before there was land, there was only sky and sea. High above, Tangaloa, the great god of the heavens, looked down and saw nothing but endless water. He sent his son, Tangaloa 'Eitumatupu'a, down to see what was there.
+        <br><br>
+        Tangaloa 'Eitumatupu'a found a bare rock rising from the sea and decided to stay a while. In time, his descendants became the first chiefs of Tonga, and the rock he found grew into the islands we know today. Tangaloa is remembered as the one who watched over the very beginning of the Tongan people, connecting every Tongan family back to the sky itself.
+        <br><br>
+        This story is one of the oldest in Tongan culture, explaining why chiefs and leadership have always held such deep meaning and respect in Tongan society.`,
+        text_to: `Ki mu'a ke 'i ai ha fonua, ko e langi mo e tahi pē. 'I 'olunga lahi, na'e sio hifo 'a Tangaloa, ko e 'Otua lahi 'o e ngaahi langi, 'o ne mamata ki he tahi ta'engata pē. Na'a ne fekau atu hono foha, ko Tangaloa 'Eitumatupu'a, ke ne sio pe ko e hā 'oku 'i ai.
+        <br><br>
+        Na'e 'ilo 'e Tangaloa 'Eitumatupu'a ha maka telefua na'e hopo hake mei he tahi, pea ne fili ke nofo ki ai ha taimi si'i. 'I he vaha'a taimi, na'e hoko 'ene hako ko e ngaahi 'eiki 'uluaki 'o Tonga, pea ko e maka na'a ne 'ilo na'e tupu ko e ngaahi motu 'oku tau 'ilo he 'aho ni.
+        <br><br>
+        Ko e talanoa ko 'eni ha taha 'o e talanoa motu'a taha 'i he anga fakafonua Tonga, 'o fakamatala'i ai pe ko e hā na'e mahu'inga ai 'a e ngaahi 'eiki mo e taki 'i he sōsaieti fakatonga.`
+    }
+};

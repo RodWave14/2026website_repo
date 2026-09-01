@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Little Readers - Stories</title>
+
     <link rel="stylesheet" href="stories.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-    <body>
-        <div class="main">
+
+
+    <div class="main">
+
         <div class="logo">
             <i class="fa-solid fa-book-open"></i>
             <h2>Little Readers</h2>
         </div>
+
         <div class="navbar">
             <a href="index.html">Home</a>
             <a href="stories.html">Stories</a>
@@ -21,43 +29,66 @@
             <a href="#">About</a>
         </div>
 
-        </div>
+    </div>
+
 
     <section class="story-intro">
+
         <h1 id="storiesTitle">
             Tongan Legends
             <br>
             <span>for Little Learners</span>
         </h1>
+
         <p id="storiesDescription">
             Explore the myths and legends passed down through generations
         </p>
 
+
+
         <div class="story-controls">
+
+
             <select id="storyPicker" class="story-picker">
                 <option value="maui">Maui Fishes Up Tonga</option>
                 <option value="coconut">The Origin of the Coconut Tree</option>
                 <option value="tangaloa">Tangaloa and the Creation of Tonga</option>
             </select>
 
+
             <button id="translateBtn" class="translate-btn">
                 Translate to Tongan
             </button>
 
-            <section class="story-display">
-                <div class="story-card">
+        </div>
+
+
+
+        <section class="story-display">
+
+            <div class="story-card">
+
                 <div class="story-card-icon">
                     <i id="storyIcon" class="fa-solid fa-fish"></i>
                 </div>
-                    <h2 id="storyTitle">Maui Fishes Up Tonga</h2>
-                    <p id="storyText"></p>
 
-            </section>
+                <h2 id="storyTitle">
+                    Maui Fishes Up Tonga
+                </h2>
 
-            <script src="stories.js"></script>
+                <p id="storyText">
+                    Select a story above to begin reading.
+                </p>
+
             </div>
-        </div>
+
+        </section>
+
     </section>
-    </body>
+
+
+    <script src="stories.js"></script>
+
 </body>
+
 </html>
