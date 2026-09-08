@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Little Readers - Stories</title>
+    <title>Tongan Stories | Little Learners</title>
 
     <link rel="stylesheet" href="stories.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 
         <div class="logo">
             <i class="fa-solid fa-book-open"></i>
-            <h2>Little Readers</h2>
+            <h2>Little Learners</h2>
         </div>
 
         <div class="navbar">
@@ -32,57 +33,114 @@
     </div>
 
 
-    <section class="story-intro">
+
+    <section class="stories-hero">
 
         <h1 id="storiesTitle">
-            Tongan Legends
-            <br>
-            <span>for Little Learners</span>
+            Tongan Stories
         </h1>
 
         <p id="storiesDescription">
-            Explore the myths and legends passed down through generations
+            Discover stories from Tonga and learn about our culture.
         </p>
 
+        <button id="translateBtn" class="translate-btn">
+            Translate to Tongan
+        </button>
+
+    </section>
 
 
-        <div class="story-controls">
+    <section class="story-container">
 
 
-            <select id="storyPicker" class="story-picker">
-                <option value="maui">Maui Fishes Up Tonga</option>
-                <option value="coconut">The Origin of the Coconut Tree</option>
-                <option value="tangaloa">Tangaloa and the Creation of Tonga</option>
-            </select>
+        <div class="story-card">
 
+            <img src="photos/fire-tonga.png"
+                 alt="The Fire of Tonga">
 
-            <button id="translateBtn" class="translate-btn">
-                Translate to Tongan
-            </button>
+            <div class="story-card-content">
+
+                <div class="story-icon">
+                    🔥
+                </div>
+
+                <h2 id="story1Title">
+                    The Fire of Tonga
+                </h2>
+
+                <p id="story1Description">
+                    Discover how Maui brought the gift of fire
+                    to the people of Tonga.
+                </p>
+
+                <a href="story1.html" class="read-btn" id="story1Button">
+                    Read Story
+                </a>
+
+            </div>
 
         </div>
 
 
 
-        <section class="story-display">
+        <div class="story-card">
 
-            <div class="story-card">
+            <img src="photos/star-twins.png"
+                 alt="The Star Twins of Tonga">
 
-                <div class="story-card-icon">
-                    <i id="storyIcon" class="fa-solid fa-fish"></i>
+            <div class="story-card-content">
+
+                <div class="story-icon">
+                    ⭐
                 </div>
 
-                <h2 id="storyTitle">
-                    Maui Fishes Up Tonga
+                <h2 id="story2Title">
+                    The Star Twins of Tonga
                 </h2>
 
-                <p id="storyText">
-                    Select a story above to begin reading.
+                <p id="story2Description">
+                    Learn about two brothers who became
+                    bright stars in the sky.
                 </p>
+
+                <a href="story2.html" class="read-btn" id="story2Button">
+                    Read Story
+                </a>
 
             </div>
 
-        </section>
+        </div>
+
+
+
+        <div class="story-card">
+
+            <img src="photos/turtle-fisherman.png"
+                 alt="The Turtle and the Fisherman">
+
+            <div class="story-card-content">
+
+                <div class="story-icon">
+                    🐢
+                </div>
+
+                <h2 id="story3Title">
+                    The Turtle and the Fisherman
+                </h2>
+
+                <p id="story3Description">
+                    A story about kindness, friendship
+                    and caring for the ocean.
+                </p>
+
+                <a href="story3.html" class="read-btn" id="story3Button">
+                    Read Story
+                </a>
+
+            </div>
+
+        </div>
 
     </section>
 
@@ -90,5 +148,4 @@
     <script src="stories.js"></script>
 
 </body>
-
 </html>
